@@ -1,0 +1,14 @@
+:root {
+  --background-color: #333;
+  --first-color-text: #fff;
+}
+body {
+  margin: 0;
+}
+.heder {
+  background-color: var(--default-bacground);
+}
+.heder h1 {
+  text-align: center;
+  color: var(--first-color-text);
+}
