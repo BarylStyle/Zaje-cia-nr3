@@ -1,0 +1,104 @@
+/* Dekoracje tekstu */
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Podkreslenie tekstu */
+.title {
+    text-decoration: underline;
+}
+
+.text>span {
+    text-decoration: line-through;
+}
+
+/* Brak dekoracji textu */
+.link {
+    text-decoration: none;
+}
+
+/* wielkosci liter */
+
+
+/* Zmiana wszytskich liter na wielkie  */
+.site-nav .link {
+    text-decoration: uppercase;
+}
+
+/* Wyrownanie tekstu na srodku  */
+.post-title {
+    text-align: center;
+}
+
+/* Wyrownanie textu od prawej  */
+.align-right {
+    text-align: right;
+}
+
+/* Wyrownanie textu z obu stron  */
+.align-justify {
+    text-align: justify;
+}
+
+/* wciecie pierwszego wiersza  */
+.post-text {
+    text-indent: 100px;
+}
+
+/* odstep miedzy wierszami  */
+.text {
+    line-height: 1.5;
+}
+
+/* odstepy miedzy znakami */
+.post-title {
+    letter-spacing: 10px;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Formatowanie spacji i dzielenie wyrazow */
+
+.post-text {
+    white-space: pre-wrap;
+}
+
+.post-text {
+    white-space: pre-wrap;
+}
+
+/* Ustawia rozmiar czcionki w pixelach */
+.text {
+    font-size: 20px;
+}
+
+/* grubosc tekstu */
+
+.text {
+    font-weight: 400;
+}
+
+.pre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+pre::first-letter {
+    color: red;
+    background-color: yellow;
+    font-size: 25px;
+
+}
+
+pre::selection {
+    color: red;
+    background-color: yellow;
+}
