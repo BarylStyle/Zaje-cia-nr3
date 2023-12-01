@@ -1,0 +1,42 @@
+body {
+    background-color: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    background-color: #fff;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+
+}
+
+.box {
+    height: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 2px;
+    width: 320px;
+
+}
+
+.one {
+    background-color: red;
+    align-self: flex-start;
+}
+
+.two {
+    background-color: yellow;
+    align-self: center;
+
+}
+
+.three {
+    background-color: blue;
+    align-self: flex-end;
+}
