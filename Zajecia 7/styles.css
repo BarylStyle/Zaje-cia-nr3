@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+header {
+    background-color: lightseagreen;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu-list li {
+    padding: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+}
+
+.menu-list li::before {
+    content: "\2605";
+    padding: 12px;
+}
+
+.menu-list li::after {
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: black;
+}
+
+.menu-list li:hover {}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.section1 {
+    background-image: url('https: //img-ovh-cloud.zszywka.pl/0/0644/4934-ile-paczkow-dzisiaj-zjecie.jpg');
+    background-repeat: no-repeat;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.people div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    background-image: url('https: //img-ovh-cloud.zszywka.pl/0/0644/4934-ile-paczkow-dzisiaj-zjecie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 10px 100px;
+}
+
+.product {}
+
+.produkt div {
+    border: 2px solid black;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.containerd {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    background-image: url('https: //img-ovh-cloud.zszywka.pl/0/0644/4934-ile-paczkow-dzisiaj-zjecie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+.box {
+    height: 400px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box:first-child {
+    background-image: url('https: //flic.kr/p/2m7ura8');
+}
+
+.box:last-child {}
