@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+<h2>Formularz HTML</h2>
+
+<form>
+    <fieldset>
+        <legend>Dane osobowe</legend>
+        <label form="name">Imię</label>
+        <input type="text" id="name" name="name" placeholder="john" required />
+        <br>
+        <lable form="email">email</lable>
+        <input type="email" id="email" name="name" placeholder="john@example.com" required/>
+        <br>
+        <label form="phone">telefon</label>
+        <input type="tel" id="phone" name="phone" placeholder="john" required/>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Preferencje</legend>
+        <label for="subscribe">Subskrybuj newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe"></input>
+
+        <br>
+
+        <label for="payment1">Karta Kredytowa </label>
+        <input type="radio" id="payment1" name="payment1"></input>
+
+        <br>
+
+        <label for="payment2">przelew bankwy</label>
+        <input type="radio" id="payment2" name="payment2"></input>
+
+        <br>
+
+        <label for="birthdate">data urodzenia</label>
+        <input type="date" id="birthdate" name="birthdate"></input>
+<br>
+
+<label for="message">Wiadomosc</label>
+<textarea id="message" name="message" placeholder="wpisz tutaj swoja date urpdzernia"></textarea>
+<br>
+
+
+<label for="country">kraj</label>
+
+<select id="country" name="country">
+    <option value="usa">Stany zjednoczone</option>
+    <option value="pl">Polska</option>
+    <option value="jp">japonia</option>
+</select>
+
+<br>
+
+<label for="broeser">Ulubiona przegladarka</label>
+<input list="browser_option" id="browser" placeholder="wybierz lub wpisz"/>
+    </fieldset>
+
+</form>
+    </main>
+
+</body>
+</html>
